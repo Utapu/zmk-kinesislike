@@ -77,7 +77,7 @@
 &kp ESCAPE        &kp A                 &kp S                  &kp D         &kp F     &kp G     &kp EQUAL                     &kp UP_ARROW                        &kp EXCL         &kp H     &kp J      &kp K    &kp L     &kp SEMI        &kp APOS
 &kp LEFT_SHIFT    &kp Z                 &kp X                  &kp C         &kp V     &kp B                                   &kp RIGHT_ARROW                     &kp N            &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_SHIFT
 &kp SPACE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LG(C)               &kp LEFT                 &kp BACKSPACE  &kp LG(V)        &kp BACKSLASH      &kp PIPE
-&kp TAB           &tmux_n1              &kp LEFT_CONTROL       &kp CAPSLOCK  &kp LGUI                           &kp ENTER      &kp LEFT_ALT     &kp RIGHT_CONTROL  &mo 1            &kp RGUI
+&kp LEFT_SHIFT    &kp TAB               &kp LEFT_CONTROL       &kp CAPSLOCK  &kp LGUI                           &kp ENTER      &kp LEFT_ALT     &kp RIGHT_CONTROL  &mo 1            &kp RGUI
                                                                                                                 &kp K_MUTE
             >;
 
