@@ -72,13 +72,13 @@
 
         default_layer {
             bindings = <
-&kp GRAVE         &kp N1                &kp N2                 &kp N3        &kp N4        &kp N5    &kp C_VOL_DN                  &kp DOWN_ARROW                      &kp C_VOLUME_UP  &kp N6    &kp N7     &kp N8   &kp N9    &kp N0          &kp DELETE
-&kp LEFT_BRACKET  &kp Q                 &kp W                  &kp E         &kp R         &kp T     &kp C_BRI_DEC                 &kp ENTER                           &kp C_BRI_INC    &kp Y     &kp U      &kp I    &kp O     &kp P           &kp RIGHT_BRACKET
-&kp ESCAPE        &kp A                 &kp S                  &kp D         &kp F         &kp G     &kp EQUAL                     &kp UP_ARROW                        &kp EXCL         &kp H     &kp J      &kp K    &kp L     &kp SEMI        &kp APOS
-&kp LEFT_SHIFT    &kp Z                 &kp X                  &kp C         &kp V         &kp B                                   &kp RIGHT_ARROW                     &kp N            &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_SHIFT
-&kp SPACE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LG(C)                   &kp LEFT                 &kp BACKSPACE  &kp LG(V)        &kp BACKSLASH      &kp PIPE
-&kp LEFT_SHIFT    &kp TAB               &kp LEFT_CONTROL       &kp CAPSLOCK  &kp LEFT_ALT                           &kp ENTER      &kp RGUI         &kp RIGHT_CONTROL  &mo 1            &tmux_n1
-                                                                                                                    &kp K_MUTE
+&kp GRAVE         &kp N1                &kp N2                 &kp N3      &kp N4        &kp N5    &kp C_VOL_DN                  &kp DOWN_ARROW                      &kp C_VOLUME_UP  &kp N6    &kp N7     &kp N8   &kp N9    &kp N0          &kp DELETE
+&kp LEFT_BRACKET  &kp Q                 &kp W                  &kp E       &kp R         &kp T     &kp C_BRI_DEC                 &kp ENTER                           &kp C_BRI_INC    &kp Y     &kp U      &kp I    &kp O     &kp P           &kp RIGHT_BRACKET
+&kp ESCAPE        &kp A                 &kp S                  &kp D       &kp F         &kp G     &kp EQUAL                     &kp UP_ARROW                        &kp EXCL         &kp H     &kp J      &kp K    &kp L     &kp SEMI        &kp APOS
+&kp LEFT_SHIFT    &kp Z                 &kp X                  &kp C       &kp V         &kp B                                   &kp RIGHT_ARROW                     &kp N            &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_SHIFT
+&kp SPACE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LG(C)                 &kp LEFT                 &kp BACKSPACE  &kp LG(V)        &kp BACKSLASH      &kp PIPE
+&kp LEFT_SHIFT    &kp TAB               &kp LEFT_CONTROL       &vim_write  &kp LEFT_ALT                           &kp ENTER      &kp RGUI         &kp RIGHT_CONTROL  &mo 1            &tmux_n1
+                                                                                                                  &kp K_MUTE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
