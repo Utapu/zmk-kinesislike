@@ -86,7 +86,7 @@
 
         raise {
             bindings = <
-&kp TILDE     &kp CARET         &kp DOUBLE_QUOTES     &kp PERCENT            &kp MINUS          &kp QUESTION    &trans          &kp C_BRI_DEC                             &trans                    &trans     &trans          &trans        &trans     &trans  &trans
+&bt BT_CLR    &kp CARET         &kp DOUBLE_QUOTES     &kp PERCENT            &kp MINUS          &kp QUESTION    &trans          &kp C_BRI_DEC                             &trans                    &trans     &trans          &trans        &trans     &trans  &trans
 &kp SLASH     &kp GRAVE         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SINGLE_QUOTE   &kp AT          &trans          &kp K_MUTE                                &trans                    &trans     &kp LC(D)       &kp LC(U)     &trans     &trans  &trans
 &kp HASH      &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp UNDERSCORE  &trans          &kp C_BRI_UP                              &vim_write                &kp LEFT   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans  &trans
 &kp EXCL      &kp PLUS          &kp LESS_THAN         &kp GREATER_THAN       &kp EQUAL          &kp DOLLAR                      &kp C_VOL_UP                              &kp N0                    &kp LS(G)  &gg             &kp DOLLAR    &trans     &trans
